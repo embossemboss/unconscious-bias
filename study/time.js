@@ -38,6 +38,49 @@ define(['timeAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8
             stimulusCss: { color: '#31940F', 'font-size': '1.8em' }
         },
 
+        attribute2:
+        {
+            name: 'Good words',
+            title: {
+                media: { word: 'Good words' },
+                css: { color: '#0000FF', 'font-size': '1.8em' },
+                height: 4 //Used to position the "Or" in the combined block.
+            },
+            stimulusMedia: [ //Stimuli content as PIP's media objects
+                { word: '笑顔' },
+                { word: '楽しい' },
+                { word: 'すばらしい' },
+                { word: '楽しい' },
+                { word: '素晴らしい' },
+                { word: '平和' },
+                { word: '栄光' },
+                { word: '愛' }
+            ],
+            //Stimulus css
+            stimulusCss: { color: '#0000FF', 'font-size': '2.3em' }
+        },
+        attribute1:
+        {
+            name: 'Bad words',
+            title: {
+                media: { word: 'Bad words' },
+                css: { color: '#0000FF', 'font-size': '1.8em' },
+                height: 4 //Used to position the "Or" in the combined block.
+            },
+            stimulusMedia: [ //Stimuli content as PIP's media objects
+                { word: 'awful' },
+                { word: 'failure' },
+                { word: 'agony' },
+                { word: 'hurt' },
+                { word: 'horrible' },
+                { word: 'terrible' },
+                { word: 'nasty' },
+                { word: 'evil' }
+            ],
+            //Stimulus css
+            stimulusCss: { color: '#0000FF', 'font-size': '2.3em' }
+        },
+
         base_url: {//Where are your images at?
             image: 'https://baranan.github.io/minno-tasks/images/'
         }
