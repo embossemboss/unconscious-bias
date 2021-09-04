@@ -32,7 +32,7 @@ define(['managerAPI'], function(Manager) {
         blackLabels:blackLabels,
         whiteLabels:whiteLabels,
         posWords : API.shuffle([
-            'Love', 'Cheer', 'Friend', 'Pleasure',
+            '愛', '喜び', 'Friend', 'Pleasure',
             'Adore', 'Cheerful', 'Friendship', 'Joyful', 
             'Smiling','Cherish', 'Excellent', 'Glad', 
             'Joyous', 'Spectacular', 'Appealing', 'Delight', 
