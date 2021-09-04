@@ -68,7 +68,7 @@ define(['timeAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8
                 height: 4 //Used to position the "Or" in the combined block.
             },
             stimulusMedia: [ //Stimuli content as PIP's media objects
-                { word: 'awful' },
+                { word: 'ひどい' },
                 { word: 'failure' },
                 { word: 'agony' },
                 { word: 'hurt' },
