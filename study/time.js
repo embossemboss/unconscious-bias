@@ -69,13 +69,13 @@ define(['timeAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8
             },
             stimulusMedia: [ //Stimuli content as PIP's media objects
                 { word: 'ひどい' },
-                { word: 'failure' },
-                { word: 'agony' },
-                { word: 'hurt' },
-                { word: 'horrible' },
-                { word: 'terrible' },
-                { word: 'nasty' },
-                { word: 'evil' }
+                { word: '失敗' },
+                { word: '苦しみ' },
+                { word: '傷' },
+                { word: '最悪' },
+                { word: 'ひどい' },
+                { word: '汚い' },
+                { word: '悪' }
             ],
             //Stimulus css
             stimulusCss: { color: '#0000FF', 'font-size': '2.3em' }
